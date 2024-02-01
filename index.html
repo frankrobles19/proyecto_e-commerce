@@ -8,37 +8,63 @@
 </head>
 <body>
     <header id="navegador">
-        <nav class="nav">    
-            <div class="nav_logo">
-                <img src="img/Sin título.png" alt="logo">
-            </div>
-            <div class="nav_links">
-                <a href="#" class="nav_links link--hombre"> Hombre</a>
-                <a href="#" class="nav_links link--mujer"> Mujer</a>
-                <a href="#" class="nav_links link--contacto"> Contactenos</a>
-                <a href="#" class="nav_links link--nosotros"> Sobre Nosotros</a>
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            <!-- logo -->
+            <a href="#logo" class="menu-logo">
+              <img src="img/logo.png" alt="logo"/>
+            </a>
+          
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="catalogo.html" style="color: black;">
+                            catálogo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactenos" style="color: black;">
+                            contáctenos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#nosotros" style="color: black;">
+                            sobre nosotros
+                        </a>
+                    </li>
+                    
+                </ul> 
             </div>
         </nav>
     </header>
     <section id="section--1" class="section">
         <div class="cuadro">
-
+            <img src="img/img_inicio.webp" alt="imagen principal" class="img_cuadro">
         </div>
-    </section id="section--2" class="section">
+    </section>
+    </section id="section--2" >
         <div class="contenedor">
-            <div class="cuadritos"></div>
-            <div class="cuadritos"></div>
-            <div class="cuadritos"></div>
+            <div class="cuadritos"><img src="img/imgen_cuadritos.webp" alt=""></div>
+            <div class="cuadritos"><img src="img/imgen_cuadritos2.webp" alt=""></div>
+            <div class="cuadritos"><img src="img/img_cuadritos3.webp" alt=""></div>
         </div>
+    </section>    
     <section id="section--3">
         <div  class="footer">
             <div class="sobre_nosotros">
-
+                somos una empresa 
             </div>
             <div id="contactenos_1" class="contactenos">
 
             </div>
         </div>
     </section>
+
 </body>
 </html>
