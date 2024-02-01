@@ -3,68 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo_1.css">
+    <link rel="stylesheet" href="css/otor.css">
     <title>Document</title>
 </head>
 <body>
-    <header id="navegador">
-        <nav class="menu-container">
-            <!-- burger menu -->
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-          
-            <!-- logo -->
-            <a href="#logo" class="menu-logo">
-              <img src="img/logo.png" alt="logo"/>
-            </a>
-          
-            <!-- menu items -->
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="catalogo.html" style="color: black;">
-                            catálogo
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contactenos" style="color: black;">
-                            contáctenos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#nosotros" style="color: black;">
-                            sobre nosotros
-                        </a>
-                    </li>
-                    
-                </ul> 
+    <header>
+            <div class="Logo">
+                <!-- Espacio para el logo -->
+                <img src="img/logo-removebg-preview.png" >
             </div>
+        </div>
+        <nav>
+                <a href="#catalogo" class="navegador">Catálogo</a>
+                <a href="#nosotros" class="navegador">Nosotros</a>
+                <a href="#contactos" class="navegador">Contactos</a>
         </nav>
     </header>
+    
     <section id="section--1" class="section">
         <div class="cuadro">
-            <img src="img/img_inicio.webp" alt="imagen principal" class="img_cuadro">
+            <img src="img/img_inicio.webp" alt="imagen principal" class="img_logo">
         </div>
     </section>
-    </section id="section--2" >
+    </section id="section--2" >  
         <div class="contenedor">
-            <div class="cuadritos"><img src="img/imgen_cuadritos.webp" alt=""></div>
-            <div class="cuadritos"><img src="img/imgen_cuadritos2.webp" alt=""></div>
-            <div class="cuadritos"><img src="img/img_cuadritos3.webp" alt=""></div>
+            <div class="cuadritos1"><img src="img/imgen_cuadritos.webp" alt=""></div>
+            <div class="cuadritos2"><img src="img/imgen_cuadritos2.webp" alt=""></div>
+            <div class="cuadritos3"><img src="img/img_cuadritos3.webp" alt=""></div>
         </div>
     </section>    
     <section id="section--3">
-        <div  class="footer">
-            <div class="sobre_nosotros">
-                somos una empresa 
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="img/logo-removebg-preview.png" alt="Logo">
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                        <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                    </div>
+                </div>
             </div>
-            <div id="contactenos_1" class="contactenos">
-
-            </div>
-        </div>
+        </footer>
     </section>
-
 </body>
 </html>

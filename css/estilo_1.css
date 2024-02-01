@@ -7,6 +7,7 @@ body {
     font-family: Sans-Serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
   
   .menu-container {
@@ -123,6 +124,7 @@ body {
     }
   
     .menu {
+      overflow-x: hidden;
       position: absolute;
       box-sizing: border-box;
       width: 300px;
@@ -143,6 +145,8 @@ body {
     }
   }
   
+ 
+
   /* desktop styles */
   @media only screen and (min-width: 768px) { 
     .menu-container {
@@ -186,32 +190,96 @@ body {
 }
 
 .cuadro {
-  max-width: 1500px; /* Puedes ajustar este valor según tus necesidades */
+  
   margin: 0 auto; 
-  overflow: hidden;
+  
 }
 
 .img_cuadro{
-  max-width: 1600px ;
+
   height: auto;
   width: 100%;
 
 }
 
+@media screen and (max-width: 600px) {
+  .cuadro {
+      max-width: 100%;
+  }
+}
+
 .contenedor {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1450px; /* Puedes ajustar este valor según tus necesidades */
+  display: flex;
+  justify-content: space-between; /* Distribuir los elementos de manera uniforme */
+  align-items: center; /* Centrar verticalmente los elementos */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan a medida que se reduce el tamaño de la pantalla */
 }
 
 .cuadritos {
-    /* flex: 1; */
-    max-width: 1450px; /* Puedes ajustar este valor según tus necesidades */
-    /* overflow: hidden; */
+  flex: 0 0 calc(33.33% - 20px); /* Ajustar el tamaño de cada cuadro para que haya tres en una fila, con márgenes entre ellos */
+  margin-bottom: 20px; /* Espacio entre los cuadros */
+  overflow: hidden; /* Evitar que las imágenes se salgan de los cuadros */
 }
 
 .cuadritos img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto; /* Ajustar la altura automáticamente según el ancho para mantener la proporción */
+  max-height: 300px; /* Establecer una altura máxima para las imágenes */
+  object-fit: cover;
+  object-position: bottom;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #fff;
+  color: #333;
+  padding: 50px 0;
+  border-top: 1px solid #ccc;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #FF3366;
+}
+
+.footer-social a img {
+  max-width: 30px;
+  height: auto;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.2);
+}
