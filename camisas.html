@@ -5,24 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo_buzos.css">
+    <link rel="stylesheet" href="css/estilo_general_productos.css">
 </head>
 <body>
-    <header >
-        <img src="imagenes/img_main/logo-removebg-preview.png" class="logo">
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar-menu">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav class="navbar-menu">
-            <a href="#home" class="active" id="a">Home</a>
-            <a href="catalogo.html" class="a">Catalogo</a>
-            <a href="somos.html" class="a"> ¿Quienes Somos? </a>
-            <a href="#contact" class="a">Contactenos</a>
-            <label for="check" class="esconder-menu" id="e">
-                <i class="fa-solid fa-x"></i>
-            </label>
-        </nav>
-    </header>
+  <header >
+    <nav class="nav">
+      <div class="containern">
+          <div class="titleimg">
+              <img src="imagenes/img_main/logo-removebg-preview.png" class="imglogoindex">
+          </div> 
+          <div class="navegacion">
+              <a class="buscador" href="index.html">Inicio</a>
+              <a class="buscador" href="catalogo.html">Catalogo</a>
+              <a class="buscador" href="index.html">Quienes somos</a>
+              <a class="buscador" href="index.html">Contactenos</a>
+          </div>
+      </div>
+      <div class="nav__container">
+          <h1 class="nav__title">mattelsa</h1>
+          <a href="#menu" class="nav__menu">
+              <img src="imagenes/img_main/588a6507d06f6719692a2d15.png" class="nav__icon">
+          </a>
+          <a href="#" class="nav__menu nav__menu--second">
+              <img src="imagenes/img_main/588a6507d06f6719692a2d15.png" class="nav__icon">
+          </a>
+          <ul class="dropdown" id="menu">
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Inicio</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="catalogo.html" class="dropdown__link">
+                      <span class="dropdown__span">Catalogo</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Â¿Quienes somos?</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Contactanos</span>
+
+                      <input type="checkbox" class="dropdown__check">
+                  </a>
+
+                  <div class="dropdown__content">
+
+                      <ul class="dropdown__sub">
+
+                          <li class="dropdown__li">
+                              <a href="index.html" class="dropdown__anchor">Contact 1</a>
+                          </li>
+                          <li class="dropdown__li">
+                              <a href="index.html" class="dropdown__anchor">Contact 2</a>
+                          </li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  </header>
   <div class="contenedorTodo">
     <div class="product">
       <div class="images-cont">
@@ -44,10 +93,10 @@
         <div class="img"><img id="img4" src="imagenes/img_camisa1/img_camisa4.webp" class="producto_1"></div>
       </div>
       <div class="product-details">
-        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+        <div class="product-name">camisa negra</div>
         <div class="product-price">$20.00</div>
         <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="producto_buzo1.html" target="_blank">DETALLES</a></button>
+        <button class="buy-button"><a href="producto_camisas/producami1.html" target="_blank">DETALLES</a></button>
       </div>
     </div>
     <br>
@@ -72,10 +121,10 @@
         <div class="img"><img id="img8" src="imagenes/img_camisa2/img_camisa04.webp" class="producto_1"></div>
       </div>
       <div class="product-details">
-        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+        <div class="product-name">camisa blanca</div>
         <div class="product-price">$20.00</div>
         <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="producto_buzo1.html" target="_blank">DETALLES</a></button>
+        <button class="buy-button"><a href="producto_camisas/producami2.html" target="_blank">DETALLES</a></button>
       </div>
     </div>
     <br>
@@ -100,10 +149,10 @@
         <div class="img"><img id="img12" src="imagenes/img_camisa3/i.webp" class="producto_1"></div>
       </div>
       <div class="product-details">
-        <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+        <div class="product-name">camisa negra con estampado</div>
         <div class="product-price">$20.00</div>
         <div class="product-description">Lo que tienes que saber de este producto</div>
-        <button class="buy-button"><a href="producto_buzo1.html" target="_blank">DETALLES</a></button>
+        <button class="buy-button"><a href="producto_camisas/producami3.html" target="_blank">DETALLES</a></button>
       </div>
     </div>
     <br>
@@ -128,41 +177,15 @@
       <div class="img"><img id="img15" src="imagenes/img_camisa4/560407-1200-auto.webp" class="producto_1"></div>
     </div>
     <div class="product-details">
-      <div class="product-name">Freidora de aire Oster CKSTAF40M de 4L color gris oscuro 120V</div>
+      <div class="product-name">camisa marron</div>
       <div class="product-price">$20.00</div>
       <div class="product-description">Lo que tienes que saber de este producto</div>
-      <button class="buy-button"><a href="producto_buzo1.html" target="_blank">DETALLES</a></button>
+      <button class="buy-button"><a href="producto_camisas/producami4.html" target="_blank">DETALLES</a></button>
     </div>
   </div>
   <br>
     
   </div>
-
-
-
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <img src="../imagenes/img_main/logo-removebg-preview.png" alt="Logo">
-        </div>
-        <div class="footer-links">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-
-          </ul>
-        </div>
-        <div class="footer-social">
-          <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
-          <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
-          <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
-        </div>
-      </div>
-    </div>
-  </footer>
       <footer>
         <div class="container">
             <div class="footer-content">
@@ -177,11 +200,6 @@
                         <li><a href="#">Contacto</a></li>
                         
                     </ul>
-                </div>
-                <div class="footer-social">
-                    <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
-                    <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
-                    <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
                 </div>
             </div>
         </div>
