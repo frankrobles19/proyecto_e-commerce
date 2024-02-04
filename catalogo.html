@@ -3,45 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo_2.css">
-    
+    <link rel="stylesheet" href="css/estilo_categoria.css">
+    <link rel="stylesheet" href="css/estilo_navegador.css">
     <title>Document</title>
 </head>
 <body>
-    <header id="navegador">
-        <nav class="menu-container">
-            <!-- burger menu -->
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-          
-            <!-- logo -->
-            <a href="#logo" class="menu-logo">
-              <img src="img/logo.png" alt="logo"/>
-            </a>
-          
-            <!-- menu items -->
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="index.html"  class="subnav">
-                        principal
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contactenos" class="subnav">
-                            contactenos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#nosotros" class="subnav">
-                        sobre nosotros
-                        </a>
-                    </li>
-                </ul> 
+    <header >
+      <nav class="nav">
+        <div class="container">
+            <div class="titleimg">
+                <h1 class="title">Tienda Unica</h1>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAAA1JJREFUeF7tnItR3DAQhqVOQiUJlSRUklBJoBKgkpBKFn5GYoyxvU8bGVYznru5O+3Jn/5dvV1Lpk0CNflsE0hAjEISUALyBZFU0KgKIqJfpZTvrXzfSin9wkePk+t/e39fa8Xnh6bDFEREP0opuH42GJYbvS+lPDznvzkK1u6AmlJ+O6CsgQSs61orXndLuwFqigEYqGbPtCuocEBEhFjy9wAwc+gAdRXteqGAmmru9pQLYxtB/DISUhigAeBM2UFJNxEVFQKIiOBSaLZHStcRrZ0bEBH9KaUgGI+Y0MqhfObkAtSacKhn5OSCZAY0WMzhKujCGrhNgFpT/o8r1UDfm1s3KyA05Xt3AKP5YnhypTWqBnRC9UyZqF3NAuiM6umQMCNwqVGRCtDJAvMaB1UnUgsIgRljrTMnlYrEgE4ee+YVKo5FGkDWHjPGRJjk6vM2UCAmzbRDkyg7gCXuPGoAad0LfQ/4++KEVotn6IVzLhtlZ6oisZuJABndC9MOm7N9wqAfZcfkZlJAWvcSS5iZCYiys9SoiFqzvQCxtd5LzAx4o+wsARL1rKWAVPM99XmOQdoP2HLfKDsrZQkFpO09i5tRJr5F2VliJArUopomIm0LJvJvlJoJ1FF2lgA91lovOKVLARFnaPa9JrhuNQBRdhaLL3HhvQChQKx7CJv5KDvvIH00IEkHT7JEFGVnOEC9QBgi3GIDAqY9J5sWLEONCDuvoD5aQcqwdfzPExDDPAElIJ9bpoJSQakgH4FUkI9fxqBUUCrIRyAV5OOXMSgVlAryEUgF+fhlDEoFpYJ8BFJBPn4Zg7b5hS4cqtbmffV6WG7RoqR04RBLNKMfOdCSjQOEfzasz2sLfPTv2RVbFEikoAboM7mZSD0qQJ9IRaLg3OUsVlADhA2XWE/nNl6uuQv2LE7Px1vcCjY850TEu9bUCmqQELAtx7xf9vo4j4m/3JzxEN/mJoi1mlIpaGqkbb5ETXJqelewtqusHxnn8uNvsQECceP1yQuKbcTIL445c1BmQE1N/WkKeMREv1G8wg1wMw9bh2snT2OY50fe/pSFzUdSNBvYmN7d7s3/w471MJ3JxSxB48x5XAo6841Ly56AuBG/lORX/V0qKBXk0/4TDiPGWF4HwAEAAAAASUVORK5CYII="/>
+            </div> 
+            <div class="navegacion">
+                <a class="buscador" href="index.html">Inicio</a>
+                <a class="buscador" href="catalogo.html">Catalogo</a>
+                <a class="buscador" href="#">Quienes somos</a>
+                <a class="buscador" href="/index.html/#Contactanos">Contactenos</a>
             </div>
-        </nav>
+        </div>
+        <div class="nav__container">
+            <h1 class="nav__title">Tienda Unica</h1>
+            <a href="index.html" class="nav__menu">
+                <img src="images/bx-universal-access.svg" class="nav__icon">
+            </a>
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="images/bxs-universal-access.svg" class="nav__icon">
+            </a>
+            <ul class="dropdown" id="menu">
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="images/bx-home-alt-2.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="/categorias.html" class="dropdown__link">
+                        <img src="images/bx-log-in-circle.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Catalogo</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="images/bx-search-alt-2.svg"dropdown__icon">
+                        <span class="dropdown__span">Â¿Quienes somos?</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="images/bxs-comment.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Contactanos</span>
+                        <img src="./Pictures/body_main/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Contact 1</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Contact 2</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
     </header>
+    <div class="card-cont">
+        <div class="product">
+          <div class="item">
+            <a href="buzos.html">
+              <button class="button">
+                <span class="text">Buzo</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_buzo2/img2.webp" class="foto" alt="Buzo">
+            </a>
+          </div>
+          <div class="item">
+            <a href="camisas.html">
+              <button class="button">
+                <span class="text">Camisa</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_camisa1/img_camisa1.webp" class="foto" alt="Camisa">
+            </a>
+          </div>
+          <div class="item">
+            <a href="camisetas.html">
+              <button class="button">
+                <span class="text">Camiseta</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_camiseta1/560469-500-auto.webp" class="foto" alt="Camiseta">
+            </a>
+          </div>
+          <div class="item">
+            <a href="chaquetas.html">
+              <button class="button">
+                <span class="text">Chaqueta</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_chaqueta1/559760-1200-auto.webp" class="foto" alt="Chaqueta">
+            </a>
+          </div>
+          <div class="item">
+            <a href="jeans.html">
+              <button class="button">
+                <span class="text">Jeans</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_jean2/538782-1200-auto.webp" class="foto" alt="Jeans">
+            </a>
+          </div>
+        </div>
+      </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagenes/img_main/logo-removebg-preview.png" alt="Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
