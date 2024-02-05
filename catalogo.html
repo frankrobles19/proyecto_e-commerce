@@ -3,45 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo_2.css">
-    
+    <link rel="stylesheet" href="css/estilo_categoria.css">
+    <link rel="stylesheet" href="css/estilo_general_productos.css">
     <title>Document</title>
 </head>
 <body>
-    <header id="navegador">
-        <nav class="menu-container">
-            <!-- burger menu -->
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-          
-            <!-- logo -->
-            <a href="#logo" class="menu-logo">
-              <img src="img/logo.png" alt="logo"/>
+  <header>
+    <nav class="nav">
+      <div class="containern">
+          <div class="titleimg">
+              <img src="imagenes/img_main/logo-removebg-preview.png" class="imglogoindex">
+          </div> 
+          <div class="navegacion">
+              <a class="buscador" href="index.html">Inicio</a>
+              <a class="buscador" href="catalogo.html">Catalogo</a>
+              <a class="buscador" href="index.html">Quienes somos</a>
+              <a class="buscador" href="index.html">Contactenos</a>
+          </div>
+      </div>
+      <div class="nav__container">
+          <h1 class="nav__title">mattelsa</h1>
+          <a href="#menu" class="nav__menu">
+              <img src="imagenes/img_main/588a6507d06f6719692a2d15.png" class="nav__icon">
+          </a>
+          <a href="#" class="nav__menu nav__menu--second">
+              <img src="imagenes/img_main/588a6507d06f6719692a2d15.png" class="nav__icon">
+          </a>
+          <ul class="dropdown" id="menu">
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Inicio</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="catalogo.html" class="dropdown__link">
+                      <span class="dropdown__span">Catalogo</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Â¿Quienes somos?</span>
+                  </a>
+              </li>
+
+              <li class="dropdown__list">
+                  <a href="index.html" class="dropdown__link">
+                      <span class="dropdown__span">Contactanos</span>
+
+                      <input type="checkbox" class="dropdown__check">
+                  </a>
+
+                  <div class="dropdown__content">
+
+                      <ul class="dropdown__sub">
+
+                          <li class="dropdown__li">
+                              <a href="index.html" class="dropdown__anchor">Contact 1</a>
+                          </li>
+                          <li class="dropdown__li">
+                              <a href="index.html" class="dropdown__anchor">Contact 2</a>
+                          </li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  </header>
+
+    <div class="card-cont">
+        <div class="product">
+          <div class="item">
+            <a href="buzos.html">
+              <button class="button">
+                <span class="text">Buzo</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_buzo2/img2.webp" class="foto" alt="Buzo">
             </a>
-          
-            <!-- menu items -->
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="index.html"  class="subnav">
-                        principal
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contactenos" class="subnav">
-                            contactenos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#nosotros" class="subnav">
-                        sobre nosotros
-                        </a>
-                    </li>
-                </ul> 
+          </div>
+          <div class="item">
+            <a href="camisas.html">
+              <button class="button">
+                <span class="text">Camisa</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_camisa1/img_camisa1.webp" class="foto" alt="Camisa">
+            </a>
+          </div>
+          <div class="item">
+            <a href="camisetas.html">
+              <button class="button">
+                <span class="text">Camiseta</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_camiseta1/560469-500-auto.webp" class="foto" alt="Camiseta">
+            </a>
+          </div>
+          <div class="item">
+            <a href="chaquetas.html">
+              <button class="button">
+                <span class="text">Chaqueta</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_chaqueta1/559760-1200-auto.webp" class="foto" alt="Chaqueta">
+            </a>
+          </div>
+          <div class="item">
+            <a href="jeans.html">
+              <button class="button">
+                <span class="text">Jeans</span>
+                <span class="arrow"></span>
+              </button>
+              <img src="imagenes/img_jean2/538782-1200-auto.webp" class="foto" alt="Jeans">
+            </a>
+          </div>
+        </div>
+      </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagenes/img_main/logo-removebg-preview.png" alt="Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        
+                    </ul>
+                </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </footer>
 </body>
 </html>

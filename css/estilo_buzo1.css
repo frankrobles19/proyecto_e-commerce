@@ -1,0 +1,227 @@
+/*PRODUCTOS*/
+.containerproducts{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid rgba(68, 68, 68, 0.308);
+    width: 80%; 
+    background-color: white;
+    margin: 0 auto; 
+    padding: 10px;
+}
+.containerimages{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100px 100px 100px 100px;
+    align-items: center;
+    max-width: 500px;
+    gap: 20px;
+    
+
+}
+.h2{
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+.h2:hover{
+    color: rgba(255, 0, 0, 0.479)
+}
+.productop1, .productop2, .productop3, .productop4{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgba(128, 128, 128, 0.527);
+    border-radius: 5px;
+}
+
+
+.p1,.p2,.p3, .p4{
+    width: 100%; 
+}
+.pg1,.pg2,.pg3, .pg4{
+    width: 100%;   
+}
+
+.productog1{
+    visibility: visible;
+    width: 280px;
+    height: auto;
+    max-height: 380px;
+    margin: 3%;
+    grid-column: 2/2;
+    grid-row: 1/span 4;
+    max-width: 90%;
+    overflow: hidden;
+}
+.productog2, .productog3, .productog4{
+    max-width: 90%;
+    visibility: hidden;
+    margin: 3%;
+    width: 1200px;
+    max-height: 400px;
+
+    height: auto;
+    grid-column: 2/2;
+    grid-row: 1/span 4;
+    overflow: hidden;
+}
+.txtproduct{
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.527);
+    color: white;
+}
+.productop2:hover~.productog2{
+    visibility: visible;
+
+}
+.productop3:hover~.productog3{
+    visibility: visible;
+
+}
+.productop4:hover~.productog4{
+    visibility: visible;
+
+}
+.productop1:hover ,.productop2:hover ,.productop3:hover, .productop4:hover{
+    border: 2px solid #7DF0E3;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+footer {
+    background-color: #353434;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo_prin img{
+    width: 30%;
+    height: auto;
+  }
+  
+  
+  .footer-logo img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-social img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  @media screen and (max-width: 1250px) {
+      .containerproducts{
+          
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 400px 400px;
+          border: 2px solid rgba(68, 68, 68, 0.308);
+          width: 80%; 
+          background-color: white;
+          margin: 0 auto; 
+          padding: 10px;
+          overflow:scroll;
+        }
+        .containerimages{
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            grid-template-rows: 300px 100px;
+            align-items: center;
+            max-width: 500px;
+            gap: 20px
+            
+        }
+        .productop1, .productop2, .productop3, .productop4{
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(128, 128, 128, 0.527);
+            border-radius: 5px;
+        }
+        .productog1{
+            visibility: visible;
+            width: 200px;
+            height: auto;
+            max-height: 250px;
+            margin: 3%;
+            grid-column: 1/ span 4;
+            grid-row: 1/1;
+            max-width: 90%;
+            overflow: hidden;
+        }
+        .productog2, .productog3, .productog4{
+            max-width: 90%;
+            visibility: hidden;
+            margin: 3%;
+            width: 250px;
+            max-height: 250px;
+            
+            height: auto;
+            grid-column: 1/ span 4;
+            grid-row: 1/1;
+            overflow: hidden;
+        }
+        
+    }
+    @media (max-width: 790px){
+      
+      
+      .footer-content {
+          flex-direction: column;
+      }
+      
+      .footer-links ul {
+          margin-bottom: 20px;
+      }
+    }  
+    
