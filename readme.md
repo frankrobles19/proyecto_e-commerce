@@ -1,9 +1,5 @@
 # Hojas de Estilo CSS - README
-<<<<<<< HEAD
-
-=======
 imagenes fueron descargadas de https://www.mattelsa.net/
->>>>>>> 8c6478fe32aa71500f3855fc73a0dc5eddb9457c
 ## body
 
 - Elimina los márgenes predeterminados y establece la fuente principal como 'Arial' o cualquier fuente sans-serif disponible.
