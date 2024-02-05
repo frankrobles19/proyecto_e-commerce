@@ -1,5 +1,5 @@
 # Hojas de Estilo CSS - README
-
+imagenes fueron descargadas de https://www.mattelsa.net/
 ## body
 
 - Elimina los márgenes predeterminados y establece la fuente principal como 'Arial' o cualquier fuente sans-serif disponible.
@@ -21,50 +21,6 @@
 
 - Establece el tamaño flexible de los elementos, ocupando aproximadamente un tercio del contenedor con un margen de 10px.
 
-## footer
-
-- Establece el color de fondo como #353434, el color del texto en blanco, y agrega relleno en la parte superior e inferior.
-- Centra el texto dentro del pie de página.
-
-## .container
-
-- Establece el ancho máximo del contenedor principal en 1200px y lo centra horizontalmente en la página.
-
-## .footer-content
-
-- Convierte el contenido del pie de página en flexible, distribuyendo uniformemente los elementos y centrándolos verticalmente.
-
-## .logo_prin img
-
-- Establece el ancho máximo de la imagen del logo principal en un 30% del contenedor padre.
-
-## .footer-logo img
-
-- Establece el ancho máximo de la imagen del logo en un 80% del contenedor padre.
-
-## .footer-links ul
-
-- Elimina los estilos de lista predeterminados, centra los elementos horizontalmente y agrega un margen en la parte inferior.
-
-## .footer-links li
-
-- Agrega un margen a cada elemento de la lista.
-
-## .footer-links a
-
-- Elimina la decoración de subrayado de los enlaces, establece el color del texto y aplica negrita.
-
-## .footer-social
-
-- Convierte el área de enlaces sociales en flexible y los centra horizontalmente.
-
-## .footer-social a
-
-- Agrega un margen a cada enlace social y permite que se muestren en línea.
-
-## .footer-social img
-
-- Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
 
 ## Media Query (max-width: 768px)
 
@@ -148,46 +104,6 @@
 
 - Ajusta la imagen del producto para cubrir el contenedor.
 - En hover, aumenta la opacidad de la imagen.
-
-## footer
-
-- Establece el color de fondo del pie de página y el color del texto, con relleno y centrado del contenido.
-
-## .footer-content
-
-- Convierte el contenido del pie de página en un contenedor flexible con espacio entre elementos y centrado vertical.
-
-## .logo_prin img
-
-- Establece el ancho de la imagen del logo principal en un 30% del contenedor padre.
-
-## .footer-logo img
-
-- Establece el ancho máximo de la imagen del logo en un 80% del contenedor padre.
-
-## .footer-links ul
-
-- Elimina los estilos de lista predeterminados, centra los elementos horizontalmente y agrega un margen en la parte inferior.
-
-## .footer-links li
-
-- Agrega un margen a cada elemento de la lista.
-
-## .footer-links a
-
-- Elimina la decoración de subrayado de los enlaces, establece el color del texto y aplica negrita.
-
-## .footer-social
-
-- Convierte el área de enlaces sociales en flexible y los centra horizontalmente.
-
-## .footer-social a
-
-- Agrega un margen a cada enlace social y permite que se muestren en línea.
-
-## .footer-social img
-
-- Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
 
 ## Media Query (max-width: 790px)
 
