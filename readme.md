@@ -1,5 +1,9 @@
 # Hojas de Estilo CSS - README
+<<<<<<< HEAD
 
+=======
+imagenes fueron descargadas de https://www.mattelsa.net/
+>>>>>>> 8c6478fe32aa71500f3855fc73a0dc5eddb9457c
 ## body
 
 - Elimina los márgenes predeterminados y establece la fuente principal como 'Arial' o cualquier fuente sans-serif disponible.
@@ -21,6 +25,7 @@
 
 - Establece el tamaño flexible de los elementos, ocupando aproximadamente un tercio del contenedor con un margen de 10px.
 
+<<<<<<< HEAD
 ## footer
 
 - Establece el color de fondo como #353434, el color del texto en blanco, y agrega relleno en la parte superior e inferior.
@@ -65,6 +70,8 @@
 ## .footer-social img
 
 - Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
+=======
+>>>>>>> 8c6478fe32aa71500f3855fc73a0dc5eddb9457c
 
 ## Media Query (max-width: 768px)
 
@@ -149,6 +156,7 @@
 - Ajusta la imagen del producto para cubrir el contenedor.
 - En hover, aumenta la opacidad de la imagen.
 
+<<<<<<< HEAD
 ## footer
 
 - Establece el color de fondo del pie de página y el color del texto, con relleno y centrado del contenido.
@@ -189,6 +197,8 @@
 
 - Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
 
+=======
+>>>>>>> 8c6478fe32aa71500f3855fc73a0dc5eddb9457c
 ## Media Query (max-width: 790px)
 
 - Ajusta el diseño para pantallas más pequeñas:
@@ -269,4 +279,8 @@
 
 ## .footer-social img
 
+<<<<<<< HEAD
 - Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
+=======
+- Ajusta el ancho de las imágenes sociales para que no excedan su contenedor, manteniendo la proporción.
+>>>>>>> 8c6478fe32aa71500f3855fc73a0dc5eddb9457c
